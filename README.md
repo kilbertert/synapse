@@ -12,3 +12,5 @@ Personal cross-device "brain" bot — one hub that watches all my devices and ta
 `Feishu 一句话派活 → hub 判定 → Devin session 修 bug / 提 PR → 结果回推飞书确认`
 
 Day 1 milestone: Rust file-watching module on the mini PC, events visible in Feishu.
+
+See [DESIGN.md](DESIGN.md) for the trigger gate and the Feishu approve/retry/reject state machine.
