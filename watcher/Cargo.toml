@@ -1,0 +1,11 @@
+[package]
+name = "synapse-watcher"
+version = "0.1.0"
+edition = "2021"
+description = "Per-device file watcher for the synapse hub: watches paths, reports events to the brain on the mini PC."
+
+[dependencies]
+notify = "6"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ureq = { version = "2", features = ["json"] }
